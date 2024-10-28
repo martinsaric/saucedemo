@@ -10,9 +10,4 @@ describe('product' , () => {
       cy.get('[data-test="add-to-cart"]').should('be.visible')
       cy.get('[data-test="back-to-products"]').should('be.visible')
     })
-
-
-    it('filter', () => {
-
-    })
 })
